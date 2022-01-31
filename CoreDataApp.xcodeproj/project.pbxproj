@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54A64BA29319B3170D5B2911 /* Pods_CoreDataApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEDEFFF2B1C1A1693E454E3B /* Pods_CoreDataApp.framework */; };
 		EF299F2627A7A08D00545B11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF299F2527A7A08D00545B11 /* AppDelegate.swift */; };
 		EF299F2827A7A08D00545B11 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF299F2727A7A08D00545B11 /* SceneDelegate.swift */; };
 		EF299F2A27A7A08D00545B11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF299F2927A7A08D00545B11 /* ViewController.swift */; };
@@ -17,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B446122737A33657EBC4596 /* Pods-CoreDataApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreDataApp.debug.xcconfig"; path = "Target Support Files/Pods-CoreDataApp/Pods-CoreDataApp.debug.xcconfig"; sourceTree = "<group>"; };
+		4A570C7EE44F1AF350E1573B /* Pods-CoreDataApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreDataApp.release.xcconfig"; path = "Target Support Files/Pods-CoreDataApp/Pods-CoreDataApp.release.xcconfig"; sourceTree = "<group>"; };
+		DEDEFFF2B1C1A1693E454E3B /* Pods_CoreDataApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoreDataApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF299F2227A7A08D00545B11 /* CoreDataApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF299F2527A7A08D00545B11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF299F2727A7A08D00545B11 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -33,17 +37,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54A64BA29319B3170D5B2911 /* Pods_CoreDataApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		822689BE6F5BE02F2FE6D4DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B446122737A33657EBC4596 /* Pods-CoreDataApp.debug.xcconfig */,
+				4A570C7EE44F1AF350E1573B /* Pods-CoreDataApp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D6171EBCA6EF6D9A80EE50BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEDEFFF2B1C1A1693E454E3B /* Pods_CoreDataApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EF299F1927A7A08D00545B11 = {
 			isa = PBXGroup;
 			children = (
 				EF299F2427A7A08D00545B11 /* CoreDataApp */,
 				EF299F2327A7A08D00545B11 /* Products */,
+				822689BE6F5BE02F2FE6D4DD /* Pods */,
+				D6171EBCA6EF6D9A80EE50BA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +83,56 @@
 		EF299F2427A7A08D00545B11 /* CoreDataApp */ = {
 			isa = PBXGroup;
 			children = (
-				EF299F2527A7A08D00545B11 /* AppDelegate.swift */,
-				EF299F2727A7A08D00545B11 /* SceneDelegate.swift */,
+				EF299F4027A7A0DB00545B11 /* App */,
+				EF299F3F27A7A0D500545B11 /* Model */,
+				EF299F3E27A7A0CF00545B11 /* View */,
+				EF299F3D27A7A0C100545B11 /* Controller */,
+				EF299F3C27A7A09C00545B11 /* Extension */,
 				EF299F2927A7A08D00545B11 /* ViewController.swift */,
-				EF299F2B27A7A08D00545B11 /* Main.storyboard */,
 				EF299F3127A7A08E00545B11 /* Assets.xcassets */,
-				EF299F3327A7A08E00545B11 /* LaunchScreen.storyboard */,
 				EF299F3627A7A08E00545B11 /* Info.plist */,
 				EF299F2E27A7A08D00545B11 /* CoreDataApp.xcdatamodeld */,
 			);
 			path = CoreDataApp;
+			sourceTree = "<group>";
+		};
+		EF299F3C27A7A09C00545B11 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		EF299F3D27A7A0C100545B11 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EF299F3E27A7A0CF00545B11 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EF299F2B27A7A08D00545B11 /* Main.storyboard */,
+				EF299F3327A7A08E00545B11 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EF299F3F27A7A0D500545B11 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EF299F4027A7A0DB00545B11 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EF299F2527A7A08D00545B11 /* AppDelegate.swift */,
+				EF299F2727A7A08D00545B11 /* SceneDelegate.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +142,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF299F3927A7A08E00545B11 /* Build configuration list for PBXNativeTarget "CoreDataApp" */;
 			buildPhases = (
+				2C917A5EAD1962C1CB3639BC /* [CP] Check Pods Manifest.lock */,
 				EF299F1E27A7A08D00545B11 /* Sources */,
 				EF299F1F27A7A08D00545B11 /* Frameworks */,
 				EF299F2027A7A08D00545B11 /* Resources */,
+				9F701609B13DCE2ED85815C7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,6 +202,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C917A5EAD1962C1CB3639BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoreDataApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F701609B13DCE2ED85815C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoreDataApp/Pods-CoreDataApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoreDataApp/Pods-CoreDataApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoreDataApp/Pods-CoreDataApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EF299F1E27A7A08D00545B11 /* Sources */ = {
@@ -288,6 +397,7 @@
 		};
 		EF299F3A27A7A08E00545B11 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B446122737A33657EBC4596 /* Pods-CoreDataApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -315,6 +425,7 @@
 		};
 		EF299F3B27A7A08E00545B11 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A570C7EE44F1AF350E1573B /* Pods-CoreDataApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
