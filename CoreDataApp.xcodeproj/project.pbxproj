@@ -10,11 +10,22 @@
 		54A64BA29319B3170D5B2911 /* Pods_CoreDataApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEDEFFF2B1C1A1693E454E3B /* Pods_CoreDataApp.framework */; };
 		EF299F2627A7A08D00545B11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF299F2527A7A08D00545B11 /* AppDelegate.swift */; };
 		EF299F2827A7A08D00545B11 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF299F2727A7A08D00545B11 /* SceneDelegate.swift */; };
-		EF299F2A27A7A08D00545B11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF299F2927A7A08D00545B11 /* ViewController.swift */; };
 		EF299F2D27A7A08D00545B11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF299F2B27A7A08D00545B11 /* Main.storyboard */; };
 		EF299F3027A7A08D00545B11 /* CoreDataApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF299F2E27A7A08D00545B11 /* CoreDataApp.xcdatamodeld */; };
 		EF299F3227A7A08E00545B11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF299F3127A7A08E00545B11 /* Assets.xcassets */; };
 		EF299F3527A7A08E00545B11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF299F3327A7A08E00545B11 /* LaunchScreen.storyboard */; };
+		EF299F4527A7A2E000545B11 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF299F4127A7A2E000545B11 /* UIButton.swift */; };
+		EF299F4627A7A2E000545B11 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF299F4227A7A2E000545B11 /* UIColor.swift */; };
+		EF299F4727A7A2E000545B11 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF299F4327A7A2E000545B11 /* UILabel.swift */; };
+		EF299F4827A7A2E000545B11 /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF299F4427A7A2E000545B11 /* UITextField.swift */; };
+		EF299F4B27A7A2EE00545B11 /* GetStartedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF299F4A27A7A2EE00545B11 /* GetStartedVC.swift */; };
+		EF299F5127A7A30D00545B11 /* NoteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF299F4D27A7A30D00545B11 /* NoteVC.swift */; };
+		EF299F5327A7A30D00545B11 /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF299F5027A7A30D00545B11 /* NoteCell.swift */; };
+		EF299F5627A7A31700545B11 /* SavingFromNet.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF299F5527A7A31700545B11 /* SavingFromNet.swift */; };
+		EF299F5827A7A32200545B11 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF299F5727A7A32200545B11 /* DataManager.swift */; };
+		EF656C9427AA41D300ADAE23 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF656C9327AA41D300ADAE23 /* UserDefaultsManager.swift */; };
+		EFCB074F27A7EF3800D8F7FD /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCB074E27A7EF3800D8F7FD /* NetworkManager.swift */; };
+		EFCB075127A7F17D00D8F7FD /* Kanye.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCB075027A7F17D00D8F7FD /* Kanye.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,12 +35,23 @@
 		EF299F2227A7A08D00545B11 /* CoreDataApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF299F2527A7A08D00545B11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF299F2727A7A08D00545B11 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EF299F2927A7A08D00545B11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EF299F2C27A7A08D00545B11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF299F2F27A7A08D00545B11 /* CoreDataApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataApp.xcdatamodel; sourceTree = "<group>"; };
 		EF299F3127A7A08E00545B11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF299F3427A7A08E00545B11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF299F3627A7A08E00545B11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF299F4127A7A2E000545B11 /* UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		EF299F4227A7A2E000545B11 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		EF299F4327A7A2E000545B11 /* UILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		EF299F4427A7A2E000545B11 /* UITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
+		EF299F4A27A7A2EE00545B11 /* GetStartedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetStartedVC.swift; sourceTree = "<group>"; };
+		EF299F4D27A7A30D00545B11 /* NoteVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteVC.swift; sourceTree = "<group>"; };
+		EF299F5027A7A30D00545B11 /* NoteCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
+		EF299F5527A7A31700545B11 /* SavingFromNet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavingFromNet.swift; sourceTree = "<group>"; };
+		EF299F5727A7A32200545B11 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		EF656C9327AA41D300ADAE23 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		EFCB074E27A7EF3800D8F7FD /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		EFCB075027A7F17D00D8F7FD /* Kanye.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kanye.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +72,6 @@
 				0B446122737A33657EBC4596 /* Pods-CoreDataApp.debug.xcconfig */,
 				4A570C7EE44F1AF350E1573B /* Pods-CoreDataApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -88,7 +109,6 @@
 				EF299F3E27A7A0CF00545B11 /* View */,
 				EF299F3D27A7A0C100545B11 /* Controller */,
 				EF299F3C27A7A09C00545B11 /* Extension */,
-				EF299F2927A7A08D00545B11 /* ViewController.swift */,
 				EF299F3127A7A08E00545B11 /* Assets.xcassets */,
 				EF299F3627A7A08E00545B11 /* Info.plist */,
 				EF299F2E27A7A08D00545B11 /* CoreDataApp.xcdatamodeld */,
@@ -99,6 +119,10 @@
 		EF299F3C27A7A09C00545B11 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				EF299F4127A7A2E000545B11 /* UIButton.swift */,
+				EF299F4227A7A2E000545B11 /* UIColor.swift */,
+				EF299F4327A7A2E000545B11 /* UILabel.swift */,
+				EF299F4427A7A2E000545B11 /* UITextField.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -106,6 +130,9 @@
 		EF299F3D27A7A0C100545B11 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				EF299F5427A7A31700545B11 /* SaveFromNet */,
+				EF299F4C27A7A30D00545B11 /* Notes */,
+				EF299F4927A7A2EE00545B11 /* GetStarted */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -122,6 +149,10 @@
 		EF299F3F27A7A0D500545B11 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				EF299F5727A7A32200545B11 /* DataManager.swift */,
+				EFCB074E27A7EF3800D8F7FD /* NetworkManager.swift */,
+				EFCB075027A7F17D00D8F7FD /* Kanye.swift */,
+				EF656C9327AA41D300ADAE23 /* UserDefaultsManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -133,6 +164,39 @@
 				EF299F2727A7A08D00545B11 /* SceneDelegate.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		EF299F4927A7A2EE00545B11 /* GetStarted */ = {
+			isa = PBXGroup;
+			children = (
+				EF299F4A27A7A2EE00545B11 /* GetStartedVC.swift */,
+			);
+			path = GetStarted;
+			sourceTree = "<group>";
+		};
+		EF299F4C27A7A30D00545B11 /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				EF299F4F27A7A30D00545B11 /* Cell */,
+				EF299F4D27A7A30D00545B11 /* NoteVC.swift */,
+			);
+			path = Notes;
+			sourceTree = "<group>";
+		};
+		EF299F4F27A7A30D00545B11 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				EF299F5027A7A30D00545B11 /* NoteCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		EF299F5427A7A31700545B11 /* SaveFromNet */ = {
+			isa = PBXGroup;
+			children = (
+				EF299F5527A7A31700545B11 /* SavingFromNet.swift */,
+			);
+			path = SaveFromNet;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,9 +315,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF299F3027A7A08D00545B11 /* CoreDataApp.xcdatamodeld in Sources */,
-				EF299F2A27A7A08D00545B11 /* ViewController.swift in Sources */,
 				EF299F2627A7A08D00545B11 /* AppDelegate.swift in Sources */,
+				EF299F5327A7A30D00545B11 /* NoteCell.swift in Sources */,
+				EFCB074F27A7EF3800D8F7FD /* NetworkManager.swift in Sources */,
+				EF299F4827A7A2E000545B11 /* UITextField.swift in Sources */,
 				EF299F2827A7A08D00545B11 /* SceneDelegate.swift in Sources */,
+				EFCB075127A7F17D00D8F7FD /* Kanye.swift in Sources */,
+				EF299F4527A7A2E000545B11 /* UIButton.swift in Sources */,
+				EF299F4B27A7A2EE00545B11 /* GetStartedVC.swift in Sources */,
+				EF299F5627A7A31700545B11 /* SavingFromNet.swift in Sources */,
+				EF299F4727A7A2E000545B11 /* UILabel.swift in Sources */,
+				EF656C9427AA41D300ADAE23 /* UserDefaultsManager.swift in Sources */,
+				EF299F5127A7A30D00545B11 /* NoteVC.swift in Sources */,
+				EF299F5827A7A32200545B11 /* DataManager.swift in Sources */,
+				EF299F4627A7A2E000545B11 /* UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
